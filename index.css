@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Lemonada:wght@300&family=Mulish:wght@400;600&display=swap');
 
 .topbar{
-    
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
     height: 25px;
     font-size:11px;
     background: #81B29B;
@@ -21,8 +22,41 @@ ul{
     display: flex;
     font-size: 13px;
 }
-
-
+.font_1{
+    font-family: 'Cormorant', serif;
+    font-size: 22px;
+    font-weight:bold;
+}
+.font_2{
+    font-family: 'Lemonada', cursive;
+    font-size: 12px;
+    font-weight:700;
+}
+.font_3{
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    font-weight:700;
+}
+.font_4{
+    font-family: 'Lemonada', cursive;
+    font-size: 12px;
+    font-weight:600;
+}
+.font_6{
+    font-family: 'Cormorant', serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+.font_7{
+    font-family: 'Mulish', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+}
+.font_5{
+    font-family: 'Mulish', sans-serif;
+    font-size: 13px;
+    font-weight:bold;
+}
 .imagesdiv{
     padding: 0% 10% 0% 12%;
 }
@@ -70,9 +104,7 @@ ul{
     font-size: 12px;
     font-weight:400;
 }
-.content4{
-    font-size: 15px ;
-}
+
 .date{
     font-size: 30px;
 }
@@ -99,7 +131,7 @@ ul{
     font-size: 20px;
 }
 .container4{
-    margin-left: 20%;
+    margin-left: 22%;
 }
 .textgray{
     color: gray;
@@ -108,10 +140,7 @@ ul{
     padding-left: 7%;
 }
 
-.font-3{
-    font-family: 'Mulish', sans-serif;
-    font-size: 12px;
-}
+
 .new5 {
     border: 0.5px solid black;
     opacity: 1;
@@ -123,8 +152,11 @@ ul{
     margin:0% 2% 0% 2%;
 }
 .list{
-    margin: 0px 13px 0px 13px;
+    margin: 0px 15px 0px 15px;
     color: black;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
 }
 
 
@@ -144,6 +176,17 @@ ul{
     .topbar{
         font-size: 10px;
     }
+    .columns{
+        display: block;
+    }
+    .columns1{
+        margin-bottom: 20px;
+    }
+    .tapeimages{
+        width: 100%;
+        height: 100%;
+    }
+    
     
 }
 
@@ -178,6 +221,12 @@ ul{
         width: 75%;
         height: 75%;
     }
+    .aboutus1{
+        display: block;
+    }
+    .aboutus{
+        margin-top: 0px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -206,7 +255,11 @@ ul{
         width: 50%;
         height: 50%;
     }
-    .cont{
+    .aboutus1{
         display: block;
     }
+    .aboutus{
+        margin-top: 0px;
+    }
+    
 }
