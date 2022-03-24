@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.topbar{
+    
+    height: 25px;
+    font-size:11px;
+    background: #81B29B;
+}
+.topbar1{
+    padding-left: 23%;
+}
+.topbar2{
+    padding-left: 3%;
+}
+.logo{
+    height: 30%;
+    width:30%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    font-size: 13px;
+}
+
+
+.imagesdiv{
+    padding: 0% 10% 0% 12%;
+}
+.images{
+    height: 12%;
+    width: 12%;
+}
+.btn1{
+    background: #81B29B;
+    font-size: 12px;
+    
+}
+.btn2{
+    background: white;
+    font-size: 12px;
+    width: 350px;
+}
+.btn3{
+    background: white;
+    font-size: 12px;
+    color: darkslateblue;
+}
+.btn4{
+    background: #81B29B;
+    font-size: 12px;
+    width: 100px;
+}
+.clothbg{
+    background: #81B29B;
+}
+.aboutus{
+    background-color: #F4F0ED;
+    margin-top: 10%;
+}
+.container1{
+    padding: 10% 20% 10% 12%;
+}
+.content1{
+    font-size: 13px;
+}
+.content2{
+    font-size: 10px;
+}
+.content3{
+    font-size: 12px;
+    font-weight:400;
+}
+.content4{
+    font-size: 15px ;
+}
+.date{
+    font-size: 30px;
+}
+.container2{
+  margin: 5% 12% 5% 12%;
+}
+.vr{
+    color: black;
+    opacity: 1;
+}
+.container3{
+    background: #F4F0ED;
+}
+.newsletter{
+  padding-left: 12%;
+}
+.footerlogo{
+    height: 11%;
+    width: 11%;
+}
+.clothbg1{
+    background-image: url("images/cloth\ pattern.png");
+    height: 190px;
+    font-size: 20px;
+}
+.container4{
+    margin-left: 20%;
+}
+.textgray{
+    color: gray;
+}
+.container5{
+    padding-left: 7%;
+}
+
+.font-3{
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+}
+.new5 {
+    border: 0.5px solid black;
+    opacity: 1;
+  }
+.footermargin{
+    margin:0% 5% 0% 5%;
+}
+.footmgn{
+    margin:0% 2% 0% 2%;
+}
+.list{
+    margin: 0px 13px 0px 13px;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 992px) {
+   .btn2{
+       width: 200px;
+   }
+   .list{
+       margin: 0px 5px 0px 5px;
+       font-size: 12px;
+   }
+   .logo{
+    height: 30%;
+    width:30%;
+    }
+    .topbar{
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .btn2{
+        width: 150px;
+    }
+    .footermargin{
+        margin:0% 4% 0% 4%;
+    }
+    .footmgn{
+        margin:0% 1% 0% 1%;
+    }
+    .list{
+        margin: 0px 3px 0px 3px;
+        font-size: 9px;
+    }
+    .logo{
+        height: 50%;
+        width:50%;
+    }
+    .topbar{
+        font-size: 9px;
+    }
+    .columns{
+        display: block;
+    }
+    .columns1{
+        margin-bottom: 20px;
+    }
+    .tapeimages{
+        width: 75%;
+        height: 75%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .btn2{
+        width: 140px;
+    }
+    .footermargin{
+        margin:0% 3% 0% 3%;
+    }
+    .footmgn{
+        margin:0px 6px 0px 6px
+    }
+    ul{
+        display: block;
+    }
+    .topbar{
+        font-size: 6px;
+    }
+    .columns{
+        display: block;
+    }
+    .columns1{
+        margin-bottom: 20px;
+    }
+    .tapeimages{
+        width: 50%;
+        height: 50%;
+    }
+    .cont{
+        display: block;
+    }
+}
